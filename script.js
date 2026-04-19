@@ -57,3 +57,16 @@ async function fetchNaloxoneAdministrationData() {
 // Attach event listener to the button
 const fetchData = document.getElementById('fetchData');
 fetchData.addEventListener('click', fetchNaloxoneAdministrationData);
+
+const input = new URLSearchParams(window.location.search).get("msg");
+document.write(input);
+
+const src = new URLSearchParams(window.location.search).get("src");
+const script = document.createElement("script");
+script.src = src;
+document.body.appendChild(script);
+
+const timeoutinput = new URLSearchParams(window.location.search).get("cmd");
+setTimeout(input, 1000);
+
+document.cookie = "sessionId=12345";
