@@ -1,0 +1,31 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	padding: 0.625em 1.25em;
+	background-color: #008cba;
+	color: white;
+	border: none;
+	border-radius: 0.3125em;
+}
+
+table {
+	margin-top: 1.25em;
+	background-color: white;
+}
+
+table thead {
+	background-color: #008cba;
+	color: white;
+}
+
+table th,
+table td {
+	padding: 1em;
+	text-align: center;
+}
