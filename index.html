@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naloxone Administration Data</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Naloxone Administrations By Date</h1>
+        </header>
+        <main>
+            <div id="naloxoneAdministration">
+                <h2>Select a Date</h2>
+                <input type="date" id="dateInput" aria-label="Selected Date"/>
+                <button type="button" id="fetchData">Search</button>
+                <div id="results" aria-label="Naloxone Administration Results">
+                    <table id="resultsTable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Incident No.</th>
+                                <th>Dispatch Date</th>
+                                <th>Patient No.</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                                <th>Ward</th>
+                                <th>Neighbourhood ID</th>
+                                <th>Neighbourhood</th>
+                                <th>Naloxone Administrations</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultsBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
