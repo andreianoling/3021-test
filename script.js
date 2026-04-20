@@ -74,4 +74,6 @@ document.cookie = "sessionId=12345";
 const username = "admin";
 const password = "password123";
 
+const userone = { username: "admin", password: "password123" };
+
 //test
