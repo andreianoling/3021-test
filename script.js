@@ -70,3 +70,8 @@ const timeoutinput = new URLSearchParams(window.location.search).get("cmd");
 setTimeout(input, 1000);
 
 document.cookie = "sessionId=12345";
+
+const username = "admin";
+const password = "password123";
+
+//test
